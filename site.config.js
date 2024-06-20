@@ -10,7 +10,7 @@ const CONFIG = {
     github: "eundongdong",
     instagram: "",
   },
-  projects: {},
+  projects: null,
   //   {
   //     name: `morethan-my-log`,
   //     href: "https://github.com/Eundongdong/morethan-my-log",
