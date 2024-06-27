@@ -19,8 +19,8 @@ const ProfileCard: React.FC<Props> = () => {
         <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
           <div className="role">{CONFIG.profile.role}</div>
-          <div className="text-sm mb-2">{CONFIG.profile.bio}</br> 
-          <a href=""><Image src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feundongdong-log.vercel.app&count_bg=%23B1DC77&title_bg=%2385A0C4&icon=salesforce.svg&icon_color=%23E7E7E7&title=happy&edge_flat=false"/></a></div>
+          <div className="text-sm mb-2">{CONFIG.profile.bio} <div>
+          <a href=""><Image src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feundongdong-log.vercel.app&count_bg=%23B1DC77&title_bg=%2385A0C4&icon=salesforce.svg&icon_color=%23E7E7E7&title=happy&edge_flat=false"/></a></div></div>
         </div>
       </div>
     </StyledWrapper>
