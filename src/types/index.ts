@@ -48,4 +48,4 @@ export type TCategories = {
   [category: string]: number
 }
 
-export type SchmeType = "light" | "dark"
+export type SchemeType = "light" | "dark"
