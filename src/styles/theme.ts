@@ -13,8 +13,6 @@ declare module "@emotion/react" {
   }
 }
 
-export type Scheme = "light" | "dark"
-
 type Options = {
   scheme: SchemeType
 }
